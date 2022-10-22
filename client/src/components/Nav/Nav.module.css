@@ -1,0 +1,39 @@
+.nav {
+    padding: 15px 0px;
+    background: rgb(147, 100, 209);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 25px;
+    font-family: "Roboto Mono";
+}
+
+.signBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.in {
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 3px 5px;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+
+.up {
+    color: var(--basic-bg);
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 3px 5px;
+    border-radius: 9px;
+    background: #fff;
+}
