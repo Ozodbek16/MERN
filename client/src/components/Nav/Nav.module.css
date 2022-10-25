@@ -1,6 +1,15 @@
 .nav {
     padding: 15px 0px;
-    background: rgb(147, 100, 209);
+    background: #fff;
+    box-shadow: 0 0px 5px #000;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+body {
+    padding: 0 0 65px 0;
+    position: relative;
 }
 
 .row {
@@ -10,7 +19,7 @@
 }
 
 .logo a {
-    color: white;
+    color: var(--basic-bg);
     font-size: 25px;
     font-family: "Roboto Mono";
 }
@@ -21,19 +30,19 @@
 }
 
 .in {
-    color: #fff;
+    color: var(--basic-bg);
     display: inline-block;
-    border: 2px solid #fff;
+    border: 2px solid var(--basic-bg);
     padding: 3px 5px;
     border-radius: 9px;
     margin-right: 10px;
 }
 
 .up {
-    color: var(--basic-bg);
+    color: #fff;
     display: inline-block;
-    border: 2px solid #fff;
+    border: 2px solid var(--basic-bg);
     padding: 3px 5px;
     border-radius: 9px;
-    background: #fff;
+    background: var(--basic-bg);
 }

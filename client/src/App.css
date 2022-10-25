@@ -1,6 +1,6 @@
 :root {
     --container-width: 1310px;
-    --basic-bg: rgb(147, 100, 209);
+    --basic-bg: rgba(0, 0, 0, .7);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto+Mono&display=swap');
